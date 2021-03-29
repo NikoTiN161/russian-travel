@@ -8,6 +8,6 @@
 @media (max-width: 600px) {
     .footer__list-links {
         flex-direction: column;
-        justify-content: space-between;
+        margin-bottom: 48px;
     }
 }
