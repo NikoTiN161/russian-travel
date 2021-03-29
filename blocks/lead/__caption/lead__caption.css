@@ -4,6 +4,7 @@
     line-height: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    margin: 0;
     padding-top: 8px;
 }
 
@@ -13,7 +14,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .lead__caption {
         margin-left: 16px;
     }

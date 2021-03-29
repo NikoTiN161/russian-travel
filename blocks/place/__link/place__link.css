@@ -5,5 +5,9 @@
     text-decoration-line: underline;
     color: inherit;
     margin: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
+.place__link:hover {
+    opacity: 0.5;
+}

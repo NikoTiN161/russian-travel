@@ -1,7 +1,17 @@
 .header__logo {
     background-image: url(../../../images/header-logo.svg);
     background-repeat: no-repeat;
-    /* background-position: left top; */
-    background-size: cover;
+    background-size: contain;
     width: 176px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.header__logo:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 450px) {
+    .header__logo {
+        width: 142px;
+    }
 }

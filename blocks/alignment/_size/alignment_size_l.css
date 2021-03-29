@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .alignment_size_l {
         padding-left: 16px;
         padding-right: 16px;
