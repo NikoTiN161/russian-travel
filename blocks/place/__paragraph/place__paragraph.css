@@ -5,6 +5,12 @@
     margin: 0 0 20px;
 }
 
+@media (max-width: 890px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 600px) {
     .place__paragraph {
         padding-left: 16px;
