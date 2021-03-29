@@ -1,3 +1,32 @@
 .cover__text {
-    padding: 245px 312px;
+    padding: 0 312px;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    align-self: center;
+    justify-self: center;
+    z-index: 2;
+}
+
+@media (max-width: 1280px) {
+    .cover__text {
+        padding: 0 calc((100vw - 656px)/2);
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover__text {
+        padding: 0 calc((100vw - 560px)/2);
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__text {
+        padding: 0 calc((100vw - 560px)/2);
+    }
+}
+
+@media (max-width: 510px) {
+    .cover__text {
+        padding: 0 calc((100vw - 255px)/2);
+    }
 }

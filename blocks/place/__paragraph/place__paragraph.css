@@ -6,3 +6,11 @@
     line-height: 163%;
     margin: 0 0 20px ;
 }
+
+@media (max-width: 600px) {
+    .place__paragraph {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 25px;
+    }
+}
