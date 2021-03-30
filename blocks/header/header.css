@@ -2,5 +2,12 @@
     display: flex;
     justify-content: space-between;
     padding-top: 28px;
-    min-height: 52px;
+    min-height: 42px;
+    max-height: 52px;
+}
+
+@media (max-width: 425px) {
+    .header {
+        padding-top: 16px;
+    }
 }
