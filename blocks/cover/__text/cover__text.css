@@ -18,12 +18,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .cover__text {
-        padding: 0 calc((100vw - 560px)/2);
-    }
-}
-
 @media (max-width: 510px) {
     .cover__text {
         padding: 0 calc((100vw - 255px)/2);
